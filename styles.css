@@ -1,0 +1,71 @@
+body{
+  font-family: "Kantumruy Pro", sans-serif;
+}
+img {
+
+}
+header {
+  background-color: #1f2937;
+  padding: 0 200px;
+  height: 500px;
+  width: auto;
+  color: whitesmoke;
+}
+ul,
+h1 {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* HEADER */
+.photo-header{
+  height: auto;
+  width: 400px;
+}
+
+.logo-header {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px 48px;
+  align-items: center;
+}
+
+.front-header {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.someText-header {
+  max-width: 30%;
+}
+.someText-header h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.someText-header p {
+  font-weight: lighter;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.someText-header button {
+  background-color: #3882F6;
+  color: whitesmoke;
+  border-radius: 8px;
+  padding: 10px;
+  width: 30%;
+  border: none;
+}
+
+/* MAIN */
+
