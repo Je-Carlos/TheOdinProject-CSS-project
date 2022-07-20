@@ -1,9 +1,7 @@
 body{
   font-family: "Kantumruy Pro", sans-serif;
 }
-img {
 
-}
 header {
   background-color: #1f2937;
   padding: 0 200px;
@@ -13,6 +11,7 @@ header {
 }
 ul,
 h1 {
+  
   list-style-type: none;
   display: flex;
   gap: 16px;
@@ -68,4 +67,51 @@ a {
 }
 
 /* MAIN */
+.cards__general{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 0 0 150px;
 
+}
+.cards__title{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 30px 0;
+}
+.cards__photo{
+  height: auto;
+  width: 250px;
+  border: #3882F6 solid 2px;
+  border-radius: 5px;
+}
+.cards__individual{
+  max-width: 300px;
+}
+
+.main-cite{
+  background-color: #E5E7EB;
+  padding: 100px;
+  display: flex;
+}
+.main-cite__blockquote{
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0 50px;
+  font-size: 36px;
+  color: #1f2937;
+}
+.main-cite__quote{
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+.main-cite__author{
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
