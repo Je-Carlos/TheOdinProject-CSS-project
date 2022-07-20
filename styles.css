@@ -115,3 +115,20 @@ a {
   display: flex;
   justify-content: flex-end;
 }
+
+footer {
+  background: #1f2937;
+  color: #E5E7EB;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__link{
+  padding-left: 5px;
+  color: #3882F6;
+  text-decoration: none;
+}
