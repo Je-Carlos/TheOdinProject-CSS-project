@@ -92,6 +92,8 @@ a {
   max-width: 300px;
 }
 
+/* CITE */
+
 .main-cite{
   background-color: #E5E7EB;
   padding: 100px;
@@ -115,7 +117,47 @@ a {
   display: flex;
   justify-content: flex-end;
 }
+/* SIGNUP */
 
+.main-signup{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-signup__blockquote{
+  background-color: #3882F6;
+  padding: 50px 100px;
+  border-radius: 8px;
+  width: 800px;
+  color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+}
+.main-signup__title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-signup-container__paragraph{
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 10px 0;
+}
+.main-signup-container{
+  display: flex;
+  gap: 70px;
+}
+.main-signup-container__button{
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border-radius: 8px;
+  border: 2px solid #E5E7EB;
+  cursor: pointer;
+  padding: 10px;
+  width: 200px;
+}
+
+/* FOOTER */
 footer {
   background: #1f2937;
   color: #E5E7EB;
